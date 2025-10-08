@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+article #contacto {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*MENU*/
+img{
+  max-width: 100%;
+}
+
+header{
+  background-color: #0D0C52;
+  border-bottom: 8px solid #da2126;
+}
+
+.imglogo{
+  padding-left: 30px;
+  width: 18%;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.menu .navbar ul{
+  display: flex;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 0 20px;
+  color: white;
+  display: block;
+  font-weight: 500;
+}
+
+.menu .navbar ul li a:hover {
+  color: #879DED;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: #0D0C52
+}
+
+.cont-contacto {
+  margin: 50px 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  
+}
+
+.contactos-1 {
+  flex-basis: 50%;
+}
+
+.contactos-1 h2 {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #0D0C52;
+}
+
+.contacto-item {
+  display: flex;
+  margin: 40px auto;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+.contacto-item img {
+  width: 15%;
+}
+
+.item-txt {
+  padding: 0;
+  margin: 0;
+  width: 80%;
+}
+
+.item-txt h3 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #0D0C52;
+}
+
+.item-txt p a {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+/*FOOTER*/
+
+footer {
+  padding: 10px 80px;
+  background-color: #0D0C52;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p {
+  font-size: 12px;
+  font-weight: 200;
+  color: white;
+  text-align: left;
+}
+
+.links-contacto ul {
+  display: flex;
+}
+
+.links-contacto ul li a {
+  display: block;
+  padding: 0 20px;
+}
+
+.links-contacto img {
+  height: 20px;
+
+}
