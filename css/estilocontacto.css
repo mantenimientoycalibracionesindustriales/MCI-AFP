@@ -111,6 +111,12 @@ h1 {
 
 .contacto-item img {
   width: 15%;
+  border: 2px solid red;
+}
+
+.contacto-item a img {
+  width: 15%;
+  border: 2px solid green;
 }
 
 .item-txt {
@@ -170,4 +176,5 @@ footer {
 
 
 }
+
 
