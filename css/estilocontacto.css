@@ -109,12 +109,6 @@ h1 {
   margin-bottom: 50px;
 }
 
-.contacto-item a {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  border: 2px solid blue;
-}
 
 .contacto-item img {
   width: 15%;
@@ -126,6 +120,10 @@ h1 {
   border: 2px solid green;
 }
 
+.contacto-item a p {
+  width: 80%;
+  border: 2px solid green;
+}
 .item-txt {
   padding: 0;
   margin: 0;
@@ -183,6 +181,7 @@ footer {
 
 
 }
+
 
 
 
