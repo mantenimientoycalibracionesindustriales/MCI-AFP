@@ -150,6 +150,9 @@ h2 {
 
 .servicios-item {
   flex-basis: calc(33.3% - 40px);
+  background-color: #e9e9f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
   padding: 20px;
 }
 
@@ -300,3 +303,4 @@ footer {
 
 
 }
+
