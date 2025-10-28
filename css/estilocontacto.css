@@ -109,7 +109,7 @@ h1 {
   margin-bottom: 50px;
 }
 
-.contacto-item img {
+.contacto-item a img {
   width: 15%;
 }
 
@@ -167,5 +167,6 @@ footer {
 
 .links-contacto img {
   height: 20px;
+
 
 }
