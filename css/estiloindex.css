@@ -148,7 +148,7 @@ h2 {
   justify-content: space-between;
 }
 
-.servicios-item a {
+.servicios-item {
   flex-basis: calc(33.3% - 40px);
   background-color: #e9e9f0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -303,6 +303,7 @@ footer {
 
 
 }
+
 
 
 
