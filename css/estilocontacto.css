@@ -109,6 +109,16 @@ h1 {
   margin-bottom: 50px;
 }
 
+.contacto-item a {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 50px;
+  border: 2px solid blue;
+}
+
 .contacto-item img {
   width: 15%;
   border: 2px solid red;
@@ -176,5 +186,6 @@ footer {
 
 
 }
+
 
 
