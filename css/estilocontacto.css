@@ -79,6 +79,81 @@ h1 {
   color: #0D0C52
 }
 
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #0D0C52;
+}
+
+form {
+	padding: 40px 55px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	border-radius: 25px;
+	text-align: center;
+	width: 60%;
+	background-color: #e9e9f0;
+	
+}
+
+.input-group {
+	display: flex;
+	justify-content: space-between;
+	flex-basis: 50%;
+	gap: 40px;
+	align-items: center;
+	text-align: left;
+}
+
+.input-group1 {
+	flex-basis: 50%;
+	width: 60%;
+}
+
+label {
+	display: block;
+	color: #0D0C52;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 15px;
+
+}
+
+input, textarea {
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background-color: #d5d5e6;
+	border: 1.5px solid #da2126;
+	color: black;
+	outline: none;
+	width: 85%;
+
+}
+
+input::placeholder, textarea::placeholder {
+	color: grey;
+	font-size: 12px;
+}
+
+.btn {
+	font-size: 18px;
+	color: white;
+	border: 0;
+	border-radius: 25px;
+	background-color: #0D0C52;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	width: 40%;
+}
+
+.btn:hover {
+	background-color: black;
+
+}
+
+
 .cont-contacto {
   margin: 50px 150px;
   display: flex;
@@ -181,6 +256,7 @@ footer {
 
 
 }
+
 
 
 
