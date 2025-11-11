@@ -95,7 +95,7 @@ form {
 	border-radius: 25px;
 	text-align: center;
 	width: 60%;
-	background-color: #e9e9f0;
+	background-color: white;
 	
 }
 
@@ -126,7 +126,7 @@ input, textarea {
 	padding: 10px 20px;
 	border-radius: 10px;
 	margin-bottom: 20px;
-	background-color: #d5d5e6;
+	background-color: #e9e9f0;
 	border: 1.5px solid #da2126;
 	color: black;
 	outline: none;
@@ -258,6 +258,7 @@ footer {
 
 
 }
+
 
 
 
