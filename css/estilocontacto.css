@@ -152,14 +152,12 @@ input::placeholder, textarea::placeholder {
 
 .btn:hover {
 	background-color: black;
-
 }
-
 
 .cont-contacto {
   margin: 50px auto;
-	width: 80%;
-	justify-items: center;
+width: 80%;
+justify-items: center;
   display: flex;
   justify-content: space-between;
   gap: 50px;
@@ -260,6 +258,7 @@ footer {
 
 
 }
+
 
 
 
