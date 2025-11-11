@@ -157,7 +157,7 @@ input::placeholder, textarea::placeholder {
 
 
 .cont-contacto {
-  margin: 50px 150px;
+  margin: 50px auto;
   display: flex;
   justify-content: space-between;
   gap: 50px;
@@ -258,6 +258,7 @@ footer {
 
 
 }
+
 
 
 
