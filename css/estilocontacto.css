@@ -25,8 +25,8 @@ img{
 }
 
 header{
-  background-color: #0D0C52;
-  border-bottom: 8px solid #da2126;
+  background-color: #212b55;
+  border-bottom: 8px solid #da291c;
 }
 
 .imglogo{
@@ -76,15 +76,15 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 50px;
-  color: #0D0C52
+  color: #212b55
 }
 
 h2 {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  text-transform: capitalize;
-  color: #0D0C52;
+  text-transform: uppercase;
+  color: #212b55;
 }
 
 form {
@@ -113,9 +113,9 @@ form {
 	width: 60%;
 }
 
-label {
+.input-group1 label {
 	display: block;
-	color: #0D0C52;
+	color: #212b55;
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 15px;
@@ -127,7 +127,7 @@ input, textarea {
 	border-radius: 10px;
 	margin-bottom: 20px;
 	background-color: #e9e9f0;
-	border: 1.5px solid #da2126;
+	border: 1.5px solid #da291c;
 	color: black;
 	outline: none;
 	width: 85%;
@@ -144,7 +144,7 @@ input::placeholder, textarea::placeholder {
 	color: white;
 	border: 0;
 	border-radius: 25px;
-	background-color: #0D0C52;
+	background-color: #212b55;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 	cursor: pointer;
 	width: 40%;
@@ -173,7 +173,7 @@ input::placeholder, textarea::placeholder {
   font-size: 35px;
   font-weight: 700;
   text-transform: capitalize;
-  color: #0D0C52;
+  color: #212b55;
 }
 
 .contacto-item {
@@ -214,7 +214,7 @@ input::placeholder, textarea::placeholder {
   margin-bottom: 4px;
   text-decoration: none;
   text-transform: capitalize;
-  color: #0D0C52;
+  color: #212b55;
 }
 
 .item-txt p a {
@@ -229,7 +229,7 @@ input::placeholder, textarea::placeholder {
 
 footer {
   padding: 10px 80px;
-  background-color: #0D0C52;
+  background-color: #212b55;
 }
 
 .footer {
@@ -257,6 +257,147 @@ footer {
   height: 20px;
 
 
+}
+
+@media(max-width: 991px) {
+
+  .menu {
+      padding: 15px;
+
+  }
+
+  .menu label {
+    display: initial;
+
+  }
+
+  .menu .navbar {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    right: 0;
+    background-color: #212b55;
+    display: none;
+  }
+
+  .menu .navbar ul {
+    padding: 0 10px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .menu .navbar ul li {
+    display: initial;
+    margin-bottom: 4px;
+  }
+
+  #menu:checked ~ .navbar{
+    display: initial;
+  }
+
+  .header {
+    min-height: 0vh;
+  }
+
+  .imglogo {
+  padding-left: 15px;
+  width: 35%;
+}
+
+  .header-content {
+    padding: 100px 30px;
+  }
+
+  .header-content p {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  form {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 80%;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  #contacto {
+    margin: 0;
+    padding: 0;
+  }
+
+  .input-group {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    flex-basis: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .input-group1 {
+    flex-basis: 100%;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  .input-group1 label , input , textarea{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contactos-1 {
+    margin-bottom: 10px;
+  }
+
+  .contactos-1 h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .cont-contacto {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 auto;
+    gap: 20px;
+  }
+
+  .contacto-item {
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    margin: 0;
+    padding: 0 ;
+    flex-direction: column;
+  }
+
+  .footer p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .links-contacto {
+    display: initial;
+    margin-bottom: 5px;
+  }
 }
 
 

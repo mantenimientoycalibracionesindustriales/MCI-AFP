@@ -25,7 +25,7 @@ img{
 }
 
 header{
-  border-top: 25px solid #0D0C52;
+  border-top: 25px solid #212b55;
   background-color: white;
 }
 
@@ -45,10 +45,15 @@ header{
   display: flex;
 }
 
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
 .menu .navbar ul li a {
   font-size: 18px;
   padding: 0 20px;
-  color: #0D0C52;
+  color: #212b55;
   display: block;
   font-weight: 600;
 }
@@ -73,7 +78,7 @@ header{
 /*BANNER*/
 
 #banner {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(presentacion.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(presentacion.jpg);
   background-position: margin-bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,7 +113,7 @@ header{
 .btn-1 {
   display: inline-block;
   padding: 10px 18px;
-  color: #0D0C52;
+  color: #212b55;
   font-size: 20px;
   font-weight: 600;
   border-radius: 25px;
@@ -117,7 +122,7 @@ header{
 
 .btn-1:hover {
   color: whitesmoke;
-  background-color: #0D0C52;
+  background-color: #212b55;
 }
 
 /*CONTENIDO*/
@@ -128,7 +133,7 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 60px;
-  color: #0D0C52
+  color: #212b55
 }
 
 /*servicios*/
@@ -274,7 +279,7 @@ h2 {
 
 footer {
   padding: 10px 80px;
-  background-color: #0D0C52;
+  background-color: #212b55;
 }
 
 .footer {
@@ -301,6 +306,202 @@ footer {
 .links-contacto img {
   height: 20px;
 
+}
+
+
+@media(max-width: 991px) {
+
+  .menu {
+      padding: 15px;
+
+  }
+
+  .menu label {
+    display: initial;
+
+  }
+
+  .menu .navbar {
+    position: absolute;
+    top: 16%;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    display: none;
+  }
+
+  .menu .navbar ul {
+    padding: 0 10px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  .menu .navbar ul li {
+    display: initial;
+    margin-bottom: 4px;
+  }
+
+  #menu:checked ~ .navbar{
+    display: initial;
+  }
+
+  .header {
+    min-height: 0vh;
+  }
+
+  .imglogo {
+  padding-left: 15px;
+  width: 35%;
+}
+
+  .header-content {
+    padding: 100px 30px;
+  }
+
+  .header-content p {
+    padding: 0;
+  }
+
+  .banner {
+    min-height: 0vh;
+  }
+
+  .banner-content {
+    padding: 100px 30px;
+  }
+
+  .banner-content h1 { 
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: white;
+  margin-bottom: 15px;
+}
+
+  .banner-content p {
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+
+  .servicios {
+    padding: 30px;
+  }
+
+  .cont-servicios {
+    padding: 0 50px;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .servicios-item {
+    margin: 0 30px;
+    margin-bottom: 20px;
+  }
+
+  .nosotros {
+    padding: 0;
+    margin: 0;
+    display: block;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 30px;
+
+  }
+
+  .nosotros-img {
+    padding: 0;
+    margin: 0 70px;
+  }
+
+  .nosotros-img img {
+    width: 100%;
+    align-content: center;
+
+  }
+
+  .nosotros-txt {
+    padding: 0 ;
+    margin: 0 50px;
+    flex-basis: 100%;
+
+  }
+
+  .nosotros-txt p {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .experiencia {
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: block;
+  }
+
+  .img-experiencia {
+    margin: 0 auto;
+    display: block;
+    align-content: center;
+    align-items: center;
+    padding: 0 30px;
+  }
+
+  .img-experiencia img {
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 15px auto;
+    width: 100%;
+  }
+
+  #contacto {
+    display: block;
+    padding: 0 auto;
+    margin: 0 50px;
+    align-content: center;
+    margin-bottom: 30px;
+  }
+
+  .cont-contacto {
+    display: block;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .contacto-item {
+    margin-bottom: 20px;
+  }
+
+  .contacto-item p {
+    text-align: center;
+  }
+
+  .footer {
+    margin: 0;
+    padding: 0 ;
+    flex-direction: column;
+  }
+
+  .footer p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .links-contacto {
+    display: initial;
+    margin-bottom: 5px;
+  }
 
 }
 
